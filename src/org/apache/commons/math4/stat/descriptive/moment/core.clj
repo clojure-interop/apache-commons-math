@@ -1,0 +1,15 @@
+(ns org.apache.commons.math4.stat.descriptive.moment.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.apache.commons.math4.stat.descriptive.moment.GeometricMean])
+(require '[org.apache.commons.math4.stat.descriptive.moment.Kurtosis])
+(require '[org.apache.commons.math4.stat.descriptive.moment.Mean])
+(require '[org.apache.commons.math4.stat.descriptive.moment.SecondMoment])
+(require '[org.apache.commons.math4.stat.descriptive.moment.SemiVariance$Direction])
+(require '[org.apache.commons.math4.stat.descriptive.moment.SemiVariance])
+(require '[org.apache.commons.math4.stat.descriptive.moment.Skewness])
+(require '[org.apache.commons.math4.stat.descriptive.moment.StandardDeviation])
+(require '[org.apache.commons.math4.stat.descriptive.moment.Variance])
+(require '[org.apache.commons.math4.stat.descriptive.moment.VectorialCovariance])
+(require '[org.apache.commons.math4.stat.descriptive.moment.VectorialMean])

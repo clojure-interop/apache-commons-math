@@ -1,0 +1,18 @@
+(ns org.apache.commons.math4.analysis.differentiation.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[org.apache.commons.math4.analysis.differentiation.DSCompiler])
+(require '[org.apache.commons.math4.analysis.differentiation.DerivativeStructure])
+(require '[org.apache.commons.math4.analysis.differentiation.FiniteDifferencesDifferentiator])
+(require '[org.apache.commons.math4.analysis.differentiation.GradientFunction])
+(require '[org.apache.commons.math4.analysis.differentiation.JacobianFunction])
+(require '[org.apache.commons.math4.analysis.differentiation.MultivariateDifferentiableFunction])
+(require '[org.apache.commons.math4.analysis.differentiation.MultivariateDifferentiableVectorFunction])
+(require '[org.apache.commons.math4.analysis.differentiation.SparseGradient])
+(require '[org.apache.commons.math4.analysis.differentiation.UnivariateDifferentiableFunction])
+(require '[org.apache.commons.math4.analysis.differentiation.UnivariateDifferentiableMatrixFunction])
+(require '[org.apache.commons.math4.analysis.differentiation.UnivariateDifferentiableVectorFunction])
+(require '[org.apache.commons.math4.analysis.differentiation.UnivariateFunctionDifferentiator])
+(require '[org.apache.commons.math4.analysis.differentiation.UnivariateMatrixFunctionDifferentiator])
+(require '[org.apache.commons.math4.analysis.differentiation.UnivariateVectorFunctionDifferentiator])
